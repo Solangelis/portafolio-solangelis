@@ -1,0 +1,37 @@
+#projetos,
+#sobre,
+#contato,
+#buton1
+
+ {
+	padding: 50px 0;
+}
+  
+.buton1{
+	margin-top:5px;
+	width:300px;
+}
+
+/* sobre mim */
+#sobre p,
+#sobre h4,
+#sobre img {
+	text-align: center;
+}
+
+.sobre-mim-row{
+	flex-wrap: wrap;
+}
+
+.sobre-mim-row-experience,
+.sobre-mim-row {
+	width: 100%;
+	padding-left: 0;
+}
+
+/* Contato */
+#contato p,
+#contato iframe
+ {
+	font-size: 14px;
+}
