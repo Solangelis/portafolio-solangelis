@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Reset */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,18 +7,18 @@
 
 }
 
-/* Main Styling */
+
 html,
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 }
 h1{
 	color: #f9f9f9;
-	font-size: 20;
+	font-size: 34px;
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: 28px;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -27,14 +26,14 @@ h2 {
 }
 
 h4 {
-	font-size: 1.3rem;
+	font-size: 21px;
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	font-weight: 500;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 16px;
 	margin: 10px 0;
 	line-height: 1.7em;
 }
@@ -138,6 +137,7 @@ a {
 /* Projetos */
 #projetos {
 	padding: 80px 0;
+	
 }
 
 .projetos-row {
@@ -152,6 +152,7 @@ a {
 #sobre-mim {
 	padding: 80px 0;
 	background: #f9f9f9;
+	
 }
 
 .sobre-mim-row {
@@ -162,6 +163,7 @@ a {
 .sobre-mim-row-me {
 	width: 50%;
 	padding-left: 50px;
+	
 }
 
 /* Contato */
@@ -224,5 +226,20 @@ a {
 
 }
 
+a:hover{
+ background-color: rgb(163, 106, 217) ;
+ border-radius: 15px;
  
-
+ 
+}
+ 
+.footer a{
+ text-decoration: none;
+ padding: 1rem 2rem;
+ min-width: 5rem;
+ transform: .3s ease-in-out ;
+ display: flex;
+ border-radius: 50%;
+ justify-content: center;
+ align-items:center;
+}

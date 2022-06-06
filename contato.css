@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #181818;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    padding: 0 1.5em;
+  }
+  
+  .contenido {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 55px;
+  }
+  
+  
+  
+  .contato-form {
+    background-color:#000000;
+  }
+  
+  .contato-form form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .contato-form form .block {
+    grid-column: 1 / 3;
+  }
+  
+  .contato-form form p {
+    margin: 0;
+    padding: 16px;
+  }
+  
+  .contato-form form button,
+  .contato-form form input,
+  .contato-form form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #997d97;
+  }
+  
+  .contato-form form button {
+    background-color: #854381;
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+  
+  .contato-form form button:hover,
+  .contato-form form button:focus {
+    background-color: rgb(55, 39, 112);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+  }
+  
+  .contato-info {
+    background-color: #000;
+  }
+  
+  .contato-info h4,
+  .contato-info ul,
+  .contato-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  .contato-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contato-info ul li {
+    padding: 0.5em;
+  }
+  
+  
+  
+  @media (min-width: 700px) {
+    body {
+      padding: 0 0rem;
+    }
+  
+    .contato-coluna {
+      display: grid;
+      grid-template-columns: 2fr 0.5fr;
+    }
+  
+    .contato-coluna > * {
+      padding: 32px;
+    }
+  
+    .contato-info h4,
+    .contato-info ul,
+    .contato-info p {
+      padding: 16px;
+    }
+  }
+  
+ 
