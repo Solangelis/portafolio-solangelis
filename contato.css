@@ -31,7 +31,7 @@ body {
 
 .contato-form form {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr;
 }
 
 .contato-form form .block {
@@ -100,7 +100,7 @@ body {
 
   .contato-coluna {
     display: grid;
-    grid-template-columns: 2fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr;
   }
 
   .contato-coluna>* {

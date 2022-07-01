@@ -237,14 +237,12 @@ a:hover{
  
 .footer a{
  text-decoration: none;
- padding: 1rem 2rem;
- min-width: 5rem;
+ padding: 1rem 0.5rem;
  transform: .3s ease-in-out ;
  display: flex;
- border-radius: 50%;
  align-items: center;
- justify-content: space-between;
- 
+ justify-content:flex-end;
+ min-width: 1rem;
  
 }
 
