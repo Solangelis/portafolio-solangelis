@@ -74,7 +74,7 @@ a {
 .btn-outline {
 	background: transparent;
 	border: 1px solid #fff;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-transform: none;
 	font-weight: 300;
 }
@@ -191,7 +191,7 @@ a {
 #mainfooter {
 	background: #f9f9f9;
 	text-align: center;
-	padding: 30px;
+	padding: 20px;
 }
 
 .img1{
@@ -223,10 +223,12 @@ a {
 	height: 100px;
 	display:flex ;
 	align-items: center;
-	justify-content: center;
-
+	justify-content:center;
 
 }
+
+
+
 
 a:hover{
  background-color: rgb(163, 106, 217) ;
